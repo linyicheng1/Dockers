@@ -62,3 +62,5 @@ RUN cd /home/opencv && mkdir build && cd build && \
     make install
 
 RUN ldconfig
+
+RUN cd /home/catkin_ws/src/ov2slam && ./build_thirdparty.sh
